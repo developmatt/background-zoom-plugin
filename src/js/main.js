@@ -1,7 +1,7 @@
 $ = require('jquery');
 
 (function( $ ) {
-    $.fn.backgroundZoomPlugin = function(props) {
+    $.fn.backgroundZoomPlugin = function(props = {}) {
         let background_zoom_plugin = this;
         $(window).on('scroll', () => {
             let finalHeightPercent = 150;
