@@ -17,6 +17,10 @@ $ = require('jquery');
                 let backgroundNewSizePercent = backgroundNewSize / background_zoom_plugin.height() * 100;
                 let backgroundNewSizePercentString = backgroundNewSizePercent + '% auto';
                 background_zoom_plugin.css('background-size', backgroundNewSizePercentString);
+            }else{
+                if(screenScroll <= background_zoom_plugin.offset().top){
+                    background_zoom_plugin.css('background-size', '100%');
+                }
             }
         })
     };
