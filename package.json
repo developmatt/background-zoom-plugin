@@ -1,7 +1,7 @@
 {
   "name": "background-zoom",
   "version": "1.0.0",
-  "description": "",
+  "description": "A background image zoom effect according the page scroll",
   "main": "./assets/js/bundle.js",
   "scripts": {
     "build:dev": "webpack",
@@ -14,7 +14,7 @@
   },
   "keywords": [
     "background",
-    "slider",
+    "scroll",
     "animation"
   ],
   "author": "Matheus Godoi <hi.developmatt@gmail.com> (developmatt.com)",
