@@ -1,10 +1,13 @@
 $ = require('jquery');
 
 (function( $ ) {
-    $.fn.backgroundZoomPlugin = function() {
+    $.fn.backgroundZoomPlugin = function(props) {
         let background_zoom_plugin = this;
         $(window).on('scroll', () => {
             let finalHeightPercent = 150;
+            if(typeof props.finalHeightPercent !== 'undefined'){
+                finalHeightPercent = props.finalHeightPercent;
+            }
             let screenScroll = $(window).scrollTop();
             let fimScroll = background_zoom_plugin.offset().top + background_zoom_plugin.height();
             if((screenScroll > background_zoom_plugin.offset().top) && (screenScroll < fimScroll)){
