@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("\n\n//# sourceURL=webpack:///./src/js/main.js?");
+eval("window.addEventListener('scroll', function(){\n    var screenHeight = window.innerHeight;\n    var screenScroll = this.scrollY;\n    var background = document.getElementsByClassName(\"background-grow\")[0];\n    var fimScroll = background.offsetTop + background.offsetHeight;\n    var finalHeightPercent = 150;\n    if((screenScroll > background.offsetTop) && (screenScroll < fimScroll)){\n        var finalHeight = ((finalHeightPercent) * background.offsetHeight / 100) - background.offsetHeight;\n        var sizePerHeight = finalHeight / background.offsetHeight;\n        var backgroundNewSize = (sizePerHeight * (screenScroll - background.offsetTop)) + background.offsetHeight;\n        var backgroundNewSizePercent = backgroundNewSize / background.offsetHeight * 100;\n        background.style.backgroundSize = backgroundNewSizePercent + '% auto';\n    }\n});\n\n\n//# sourceURL=webpack:///./src/js/main.js?");
 
 /***/ }),
 
