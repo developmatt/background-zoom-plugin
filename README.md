@@ -1,7 +1,7 @@
 # Background Zoom
 Give a amazing visual to your background! This plugin gives a zoom effect to your background according the page scroll.
 
-![Background Zoom](background-zoom.gif)
+![Background Zoom](https://image.ibb.co/kGdqge/background_zoom.gif)
 
 ## Apllying Background Zoom
 **Attention!!! This plugin requires jQuery.**
