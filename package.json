@@ -1,11 +1,11 @@
 {
   "name": "background-zoom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A background image zoom effect according the page scroll",
-  "main": "./assets/js/bundle.js",
+  "main": "./dist/js/bundle.js",
   "scripts": {
-    "build:dev": "webpack",
-    "build:production": "cross-env NODE_ENV=production webpack",
+    "dev": "webpack",
+    "prod": "cross-env NODE_ENV=production webpack",
     "watch": "webpack --watch"
   },
   "repository": {
@@ -17,7 +17,7 @@
     "scroll",
     "animation"
   ],
-  "author": "Matheus Godoi <hi.developmatt@gmail.com> (developmatt.com)",
+  "author": "Matheus Godoi <hi.developmatt@gmail.com> (https://developmatt.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/developmatt/background-zoom-plugin/issues"
