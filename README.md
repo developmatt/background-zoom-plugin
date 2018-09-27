@@ -3,14 +3,34 @@ Give a amazing visual to your background! This plugin gives a zoom effect to you
 
 ![Background Zoom](https://image.ibb.co/kGdqge/background_zoom.gif)
 
-## Apllying Background Zoom
-**Attention!!! This plugin requires jQuery.**
- - Install Background Zoom to your project:
- `npm i background-zoom --save` or `npm i developmatt/background-zoom-plugin`
-- Insert it in project
-`require('background-zoom')`
+---
 
-- Select the element in wich is the background to be zoomed and apply the **backgroundZoomPlugin** function
-`$('#elementWithBackground').backgroundZoomPlugin();`
+## Installation  
+`npm i background-zoom --save` or `npm i developmatt/background-zoom-plugin`
 
-**Ta-daaaaa!!!** Background zoom plugin is working!
+---
+
+### Prerequisites
+This plugin uses jQuery, so you should add it as dependency to your project
+
+---
+
+### Example
+```js
+// add dependencie to yout project 
+require('background-zoom');
+
+// select element to use
+$('#my-element').backgroundZoomPlugin();
+```
+---
+
+
+**Ta-daaaaa!** Background zoom plugin is working!
+
+## CONTRIBUTING
+
+[See how to contributing](CONTRIBUTING.md)
+
+## LICENSE 
+
